@@ -1,0 +1,183 @@
+	{
+		"scenario": {
+			"1": {
+				"question": {
+					"empty":{},
+					"1": {
+						"text": "Mark is a 61 yrs old man, employee at a private company. The company offers a service of preventive controls, which in the last three years showed a progressive increase of Mark’s PSA, up to a value 8 ng/mL.  Mark has mild lower urinary tract symptoms (LUTS) with a LUTS score suggesting a possible BPH. What would you suggest to Mark?",
+						"answer": {
+							"1": {
+								"text": "refer to an urologist for a visit",
+								"result": "WRONG",
+								"reason": "Urologists are best trained to treat any condition involving the urinary tract and the male reproductive system. Other healthcare professionals may be involved in your care-a urologist may work with an oncologist to treat prostate cancer, or with a gynecologist to treat pelvic pain in women.",
+								"next": 1
+							},
+							"2": {
+								"text": "refer to an urologist for a transrectal US-guided needle biopsy",
+								"result": "CORRECT",
+								"reason": "Transrectal ultrasound-guided prostate biopsy has become essential in diagnostic investigation of patients with clinical suspicion of prostatic neoplasia due to gland alterations resulting from abnormality on the digital rectal examination or rising of the prostatic specific antigen (PSA) ",
+								"next": 2
+							},
+							"3": {
+								"text": "undergo a CT scan of pelvis",
+								"result": "WRONG",
+								"reason": "Computed tomography (CT) of the abdomen and pelvis is a diagnostic imaging test used to help detect diseases of the small bowel, colon and other internal organs and is often used to determine the cause of unexplained pain. ",
+								"next": 1
+							},
+							"4": {
+								"text": "undergo a cystoscopy",
+								"result": "WRONG",
+								"reason": "Your doctor might order this test if you have urinary problems, such as a constant need to urinate or painful urination, blood in your urine, frequent urinary tract infections, an overactive bladde or pelvic pain. A cystoscopy can reveal several conditions, including bladder tumors, stones, or cancer.",
+								"next": 1
+							}
+						}
+					},
+					"2": {
+						"text": "Mark underwent a transrectal US-guided needle biopsy of a prostatic nodule. The pathological finding is a prostatic cancer with a Gleason score 3+4. A CT scan revealed only some enlarged regional nodes and no extra-glandular diffusion (T2 on TNM staging). Which is the preferred treatment option for Mark?",
+						"answer": {
+							"1": {
+								"text": "radiation therapy",
+								"result": "WRONG",
+								"reason": "Radiation therapy (also called radiotherapy) is a cancer treatment that uses high doses of radiation to kill cancer cells and shrink tumors. At low doses, radiation is used in x-rays to see inside your body, as with x-rays of your teeth or broken bones.",
+								"next": 2
+							},
+							"2": {
+								"text": "hormone therapy with androgen deprivation",
+								"result": "WRONG",
+								"reason": "Androgens stimulate prostate cancer cells to grow. The main androgens in the body are testosterone and dihydrotestosterone (DHT). Most of the androgens are made by the testicles, but the adrenal glands (glands that sit above your kidneys) also make a small amount. Lowering androgen levels or stopping them from getting into prostate cancer cells often makes prostate cancers shrink or grow more slowly for a time.",
+								"next": 2
+							},
+							"3": {
+								"text": "surgery",
+								"result": "CORRECT",
+								"reason": "Surgery is a common choice to try to cure prostate cancer if it is not thought to have spread outside the prostate gland. The main type of surgery for prostate cancer is a radical prostatectomy. In this operation, the surgeon removes the entire prostate gland plus some of the tissue around it, including the seminal vesicles. A radical prostatectomy can be done in different ways.",
+								"next": 3
+							},
+							"4": {
+								"text": "radiation therapy, followed by surgery",
+								"result": "WRONG",
+								"reason": "with a primary rectal cancer without detectable distant metastasis who after locoregional therapy only, meaning preoperative radio(chemo)therapy plus surgery have at least a 40% risk of not having a CRM negative resection or a recurrence, local or distant, within three years will be treated with the short course 5 x 5 Gy radiation scheme followed by four cycles of combination chemotherapy and TME surgery.",
+								"next": 2
+							}
+						}
+					},
+					"3": {
+						"text": "The consultant urologist suggested Mark to undergo a radical prostatectomy. What kind of access would you suggest?",
+						"answer": {
+							"1": {
+								"text": "open surgery",
+								"result": "WRONG",
+								"reason": "Open surgeries are less common than they used to be due to the creation of 'minimally invasive' surgical techniques which involve smaller incisions or even (in some cases) no incision at all. These surgeries use multiple incisions less than an inch in length, with a camera and instruments inserted into the small incisions, and the surgeon is able to watch the procedure on a large monitor.",
+								"next": 3
+							},
+							"2": {
+								"text": "trans-uretral approach",
+								"result": "WRONG",
+								"reason": "Transurethral resection of the prostate (commonly known as a TURP, plural TURPs, and rarely as a transurethral prostatic resection, TUPR) is a urological operation. It is used to treat benign prostatic hyperplasia (BPH). As the name indicates, it is performed by visualising the prostate through the urethra and removing tissue by electrocautery or sharp dissection.",
+								"next": 3
+							},
+							"3": {
+								"text": "laparoscopic approach",
+								"result": "WRONG",
+								"reason": "Laparoscopic or “minimally invasive” surgery is a specialized technique for performing surgery. In the past, this technique was commonly used for gynecologic surgery and for gall bladder surgery. Over the last 10 years the use of this technique has expanded into intestinal surgery. In traditional “open” surgery the surgeon uses a single incision to enter into the abdomen.",
+								"next": 3
+							},
+							"4": {
+								"text": "robotic-assisted approach",
+								"result": "CORRECT",
+								"reason": "In the case of robotically-assisted minimally-invasive surgery, instead of directly moving the instruments, the surgeon uses one of two methods to control the instruments; either a direct telemanipulator or through computer control. A telemanipulator is a remote manipulator that allows the surgeon to perform the normal movements associated with the surgery.",
+								"next": 4
+							}
+						}
+					},
+					"4": {
+						"text": "In robotic surgery, is the surgeon directly in contact with the patient?",
+						"answer": {
+							"1": {
+								"text": "Yes",
+								"result": "WRONG",
+								"reason": "In robotic-assisted surgery doctor doesn't need to be in direct contact with the patient.",
+								"next": 4
+							},
+							"2": {
+								"text": "Doctor is not needed, robot does everything",
+								"result": "WRONG",
+								"reason": "The surgical robot is an operating-room machine completely controlled by a skilled surgeon, who manipulates mechanical arms from a console near the patient's bed.",
+								"next": 4
+							},
+							"3": {
+								"text": "I have a different opinion",
+								"result": "OPINION",
+								"reason": "Click again to enter your opinion and press submit.",
+								"next": 4
+							},
+							"4": {
+								"text": "Through teleoperation",
+								"result": "CORRECT",
+								"reason": "In robotic-assisted surgery doctor should operate and monitor the entire process through teleoperation.",
+								"next": 5
+							}
+						}
+					},
+					"5": {
+						"text": "Who with these roles is present in the operating room?",
+						"answer": {
+							"1": {
+								"text": "scrub nurse",
+								"result": "WRONG",
+								"reason": "Scrub nursing is a specialty where the nurse is an expert in operative nursing and works closely with surgeons and other surgical staff to ensure a smooth procedure, minimize complications, and continuously assist with maintaining a sterile field.  Surgical nurses are known as scrub nurses and work in the surgical suite to assist with surgery while maintaining a sterile field.",
+								"next": 5
+							},
+							"2": {
+								"text": "bio-engineer",
+								"result": "WRONG",
+								"reason": "Biomedical engineers design instruments, devices, and software used in healthcare; develop new procedures using knowledge from many technical sources; or conduct research needed to solve clinical problems. They frequently work in research and development or quality assurance.",
+								"next": 5
+							},
+							"3": {
+								"text": "assistant surgeon",
+								"result": "CORRECT",
+								"reason": "It necessarily mandated the presence of another surgeon who would scrub and stand as assistant by the patient's side. This assistant must be skilled enough in technical work associated with the robotic patient-side cart and also provide pure laparoscopic assistance. This makes the role of the assistant surgeon even more important than in pure laparoscopy.",
+								"next": 6
+							},
+							"4": {
+								"text": "x-rays technician",
+								"result": "WRONG",
+								"reason": "X-ray technicians (also known as X-ray technologists or radiologic technologists) use cutting-edge imaging methods to visualize the inside of the human body. The pictures they create help physicians to diagnose and treat illnesses or injuries with great accuracy. ",
+								"next": 5
+							}
+						}
+					},
+					"6": {
+						"text": "What are the expected advantages of robotic-assisted surgery over traditional laparoscopy?",
+						"answer": {
+							"1": {
+								"text": "No difference at all",
+								"result": "WRONG",
+								"reason": "Please see other answers for a better idea.",
+								"next": 6
+							},
+							"2": {
+								"text": "Robot-assisted surgery is better but not sure why",
+								"result": "CORRECT",
+								"reason": "Compared with open surgery, robot-assisted surgery was associated with a statistically significant decrease in length of hospital stay, statistically significant lower rates of blood loss, complications, transfusions, and positive surgical margins (for pT2 tumours only), and increased sexual and urinary function (results given in paper).",
+								"next": 6
+							},
+							"3": {
+								"text": "Traditional surgery, but not sure",
+								"result": "WRONG",
+								"reason": "Compared with conventional laparoscopic surgery, robot-assisted surgery slightly increased urinary function at 12 months (RR 1.09, 95% CI 1.02 to 1.17; three studies; Ι²=0); this difference was of borderline statistical significance. No statistically significant differences were observed between the two groups for the other outcomes assessed.",
+								"next": 6
+							},
+							"4": {
+								"text": "I have a different opinion",
+								"result": "OPINION",
+								"reason": "Click again to enter your opinion and press submit. ",
+								"next": 6
+							}
+						}
+					}
+				}
+			}
+		}
+	}

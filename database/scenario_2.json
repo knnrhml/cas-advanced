@@ -1,0 +1,125 @@
+{
+  "scenario": {
+    "2": {
+      "question": [
+        "empty",
+        {
+          "text": "David is a 45 yrs old man, employee as a clerk in an assurance company. Unfortunately, he had a car accident 6 months ago that caused a severe spinal injury. David is since then paraplegic and his company provides a health assurance with which he can afford further therapies. What would you suggest to David?",
+          "answer": {
+            "1": {
+              "text": "refer to an orthopedic surgeon",
+              "result": "WRONG",
+              "reason": "Orthopaedic surgeons are devoted to the prevention, diagnosis, and treatment of disorders of the bones, joints, ligaments, tendons and muscles",
+              "next": "1"
+            },
+            "2": {
+              "text": "refer to neuro surgeon",
+              "result": "WRONG",
+              "reason": "While neurosurgeons perform brain surgery, they also provide the highest level of expertise in spine disorder treatment.",
+              "next": "1"
+            },
+            "3": {
+              "text": "undergo CT or RMN scan of the spinal cord ",
+              "result": "WRONG",
+              "reason": "Computed tomography (CT) of the spine is a diagnostic imaging test used to help diagnose—or rule out—spinal column damage in injured patients",
+              "next": "1"
+            },
+            "4": {
+              "text": "Refer to a physiatrist and physiotherapist to begin a rehabilitation program",
+              "result": "CORRECT",
+              "reason": "Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to those with physical impairments or disabilities.",
+              "next": "2"
+            }
+          }
+        },
+        {
+          "text": "David underwent a physiatrist and physiotherapist consult and began a physiotherapy program. Which is the best treatment option for David?",
+          "answer": {
+            "1": {
+              "text": "functional electro myostimulation",
+              "result": "WRONG",
+              "reason": "Electrical muscle stimulation (EMS), also known as neuromuscular electrical stimulation (NMES) or electromyostimulation, is the elicitation of muscle contraction using electric impulses.",
+              "next": "2"
+            },
+            "2": {
+              "text": "passive orthoses",
+              "result": "WRONG",
+              "reason": "Insofar as active orthoses and powered exoskeletons are concerned, the technology to build these devices is improving rapidly, but little research has been done on the human side of these human-machine interfaces.",
+              "next": "2"
+            },
+            "3": {
+              "text": "muscle massages",
+              "result": "WRONG",
+              "reason": "A massage after vigorous exercise unquestionably feels good, and it seems to reduce pain and help muscles recover",
+              "next": "2"
+            },
+            "4": {
+              "text": "lower limb rehabilitation with an exoskeleton",
+              "result": "CORRECT",
+              "reason": "Robotic exoskeletons used during stroke rehabilitation assist with ambulation during the recovery process by providing earlier mobility and restored independence. ",
+              "next": "3"
+            }
+          }
+        },
+        {
+          "text": "The consultants suggested David to undergo a lower limb rehabilitation with an exoskeleton. Who are the professional figures involved?",
+          "answer": {
+            "1": {
+              "text": "nurse",
+              "result": "WRONG",
+              "reason": "Nurses provide and monitor patient care, educate patients and family members about health conditions, provide medications and treatments, give emotional support and advice to patients and their family members, and more.",
+              "next": "3"
+            },
+            "2": {
+              "text": "bio-engineer",
+              "result": "WRONG",
+              "reason": "Biomedical engineers design instruments, devices, and software used in healthcare; develop new procedures using knowledge from many technical sources; or conduct research needed to solve clinical problems.",
+              "next": "3"
+            },
+            "3": {
+              "text": "physiotherapist",
+              "result": "CORRECT",
+              "reason": "Physical therapy (PT), also known as physiotherapy, by using mechanical force and movements (bio-mechanics or kinesiology), manual therapy, exercise therapy, and electrotherapy, remediates impairments and promotes mobility and function. ",
+              "next": "4"
+            },
+            "4": {
+              "text": "orthopedic surgeon",
+              "result": "WRONG",
+              "reason": "Orthopaedic surgeons are devoted to the prevention, diagnosis, and treatment of disorders of the bones, joints, ligaments, tendons and muscles.",
+              "next": "3"
+            }
+          }
+        },
+        {
+          "text": "What are the expected advantages of physiotherapy with exoskeleton?",
+          "answer": {
+            "1": {
+              "text": "Not quite a lot advantages",
+              "result": "WRONG",
+              "reason": "Please refer to corresponding study material for a better idea.",
+              "next": "4"
+            },
+            "2": {
+              "text": "Robotic exoskeletons are capable of providing more intensive patient training.",
+              "result": "CORRECT",
+              "reason": "Manual therapy seems to be physically demanding for both the patient and therapist, robotic exoskeletons have been developed to increase the efficiency of rehabilitation therapy. Robotic exoskeletons are capable of providing more intensive patient training, better quantitative feedback, and improved functional outcomes for patients compared to manual therapy. ",
+              "next": "4"
+            },
+            "3": {
+              "text": "I have a different opinion",
+              "result": "OPINION",
+              "reason": "Please describe your motivations",
+              "next": "4"
+            },
+            "4": {
+              "text": "I don't know the answer",
+              "result": "WRONG",
+              "reason": "Please refer to corresponding study material for a better idea.",
+              "next": "4"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

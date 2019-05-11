@@ -1,0 +1,154 @@
+{
+  "scenario": {
+    "3": {
+      "question": [
+        "empty",
+        {
+          "text": "Mary is an 85 yrs old woman, she is retired and she lives far away from her sons who cannot take care of her daily. Last year she was diagnosed an Alzheimer disease and this is affecting her daily activities: she keeps forgetting to take the antihypertensive pill, the insulin for her diabetes and she has missed the last medical check. Her relatives are worried about Mary living alone. What would you suggest to Mary?",
+          "answer": {
+            "1": {
+              "text": "refer to a geriatrician for further prescription",
+              "result": "WRONG",
+              "reason": "Geriatrics, or geriatric medicine, is a specialty that focuses on health care of elderly people. It aims to promote health by preventing and treating diseases and disabilities in older adults.",
+              "next": "1"
+            },
+            "2": {
+              "text": "refer to neurologist for further check",
+              "result": "WRONG",
+              "reason": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.",
+              "next": "1"
+            },
+            "3": {
+              "text": "consult the GP for the best option  ",
+              "result": "CORRECT",
+              "reason": "Your local doctor or GP is your first point of contact for non-emergency and preventative medical care during clinic hours (which will vary for each clinic).",
+              "next": "2"
+            },
+            "4": {
+              "text": "I have a different opinion",
+              "result": "OPINION",
+              "reason": "Please explain your opinion.",
+              "next": "1"
+            }
+          }
+        },
+        {
+          "text": "Mary and her sons took into consideration consulting the general practitioner who explained them that Mary’s disease will get worse in the next years, and no further pills or exam could improve her clinical status. However, he suggested training Mary’s intellectual residual abilities in order to slower her cognitive impairment. Which is the best option for Mary?",
+          "answer": {
+            "1": {
+              "text": "go to a retirement home for the elderly",
+              "result": "WRONG",
+              "reason": "A retirement home is one of many housing options available to older adults, generally 55 years or older. In a retirement home, each person or couple lives in an apartment-style room or suite of rooms generally consisting of a living area, one or more bedrooms, one or more bathrooms and a small kitchen or kitchenette.",
+              "next": "2"
+            },
+            "2": {
+              "text": "hire a nurse",
+              "result": "WRONG",
+              "reason": "The primary duty of a registered nurse is to care for patients. Registered nurses may provide this care in a variety of settings, such as general hospitals, physicians' offices or patients' homes. ",
+              "next": "2"
+            },
+            "3": {
+              "text": "I have a different opinion",
+              "result": "OPINION",
+              "reason": "Please describe your opinion.",
+              "next": "2"
+            },
+            "4": {
+              "text": "go to a retirement home for the elderly in which a robotic assistant interacts with the elderly",
+              "result": "CORRECT",
+              "reason": "Since using devices isn’t the same as asking someone for help, relying on caregiving robots may lead seniors to perceive less lost autonomy than when they depend on human helpers.",
+              "next": "3"
+            }
+          }
+        },
+        {
+          "text": "The consultants suggested Mary to go to a retirement home for the elderly in which a robotic assistant interacts with the elderly and is able to measure vital parameters. Who are the figures involved in Mary’s neuro stimulation?",
+          "answer": {
+            "1": {
+              "text": "Robotic assistant",
+              "result": "WRONG",
+              "reason": "A personal robot is one whose human interface and design make it useful for individuals",
+              "next": "3"
+            },
+            "2": {
+              "text": "General practitioner",
+              "result": "WRONG",
+              "reason": "General practice (GP) General practitioners (GPs) treat all common medical conditions and refer patients to hospitals and other medical services for urgent and specialist treatment.",
+              "next": "3"
+            },
+            "3": {
+              "text": "Neurologist",
+              "result": "OPINION",
+              "reason": "A neurologist is a doctor with specialized training in diagnosing and treating diseases of the brain, spinal cord, peripheral nerves, and muscles.",
+              "next": "3"
+            },
+            "4": {
+              "text": "Robotic assistant and geriatrist/ general practitioner/ neurologist",
+              "result": "CORRECT",
+              "reason": "All of them must monitor the process for an effective treatment.",
+              "next": "4"
+            }
+          }
+        },
+        {
+          "text": "What does Mary need in her daily activities that can be done by the robotic assistant?",
+          "answer": {
+            "1": {
+              "text": "Vital parameter measurement",
+              "result": "WRONG",
+              "reason": "There are four primary vital signs: body temperature, blood pressure, pulse (heart rate), and breathing rate (respiratory rate), often notated as BT, BP, HR, and RR.",
+              "next": "4"
+            },
+            "2": {
+              "text": "correct pills administration",
+              "result": "WRONG",
+              "reason": "The right medication (drug) The right dose. The right route. The right time.",
+              "next": "4"
+            },
+            "3": {
+              "text": "Clinical data sending to her doctor",
+              "result": "CORRECT",
+              "reason": "So her doctor will be able to monitor the process without physically being there.",
+              "next": "5"
+            },
+            "4": {
+              "text": "Recreational activities and video/phone calls to keep in touch with her relatives.",
+              "result": "WRONG",
+              "reason": "Assistant can be extremely useful for these kind of activities.",
+              "next": "4"
+            }
+          }
+        },
+        {
+          "text": "What are the expected advantages?",
+          "answer": {
+            "1": {
+              "text": "It can lower patients’ anxiety or discomfort",
+              "result": "CORRECT",
+              "reason": "Improvement of social interactions, mental abilities and possibility to face doctors for a consult with up to date clinical data. It can lower patients’ anxiety or discomfort, loneliness and social impairment.",
+              "next": "5"
+            },
+            "2": {
+              "text": "I am not sure",
+              "result": "WRONG",
+              "reason": "Please refer to corresponding study material for a better idea.",
+              "next": "5"
+            },
+            "3": {
+              "text": "There is none",
+              "result": "WRONG",
+              "reason": "Please refer to corresponding study material for a better idea.",
+              "next": "5"
+            },
+            "4": {
+              "text": "I have a different opinion.",
+              "result": "OPINION",
+              "reason": "Please explain here.",
+              "next": "5"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
